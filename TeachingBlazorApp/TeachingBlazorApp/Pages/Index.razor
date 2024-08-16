@@ -1,0 +1,19 @@
+﻿@page "/"
+
+<h1>@response</h1>
+
+@code {
+    private string response;
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await GetAsync();
+            StateHasChanged();
+        }
+    }
+    private async Task GetAsync()
+    {
+        response = await _healthCheckManager.GetDataAsync();
+    }
+}
