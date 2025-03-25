@@ -1,0 +1,43 @@
+﻿@page "/home"
+@inject Microsoft.Extensions.Localization.IStringLocalizer<Home> _localizer
+@using System.Security.Claims;
+@using TeachingBlazorApp.Static.Icons
+@using MudBlazor
+@using TeachingBlazorApp.Shared
+@using TeachingBlazorApp.Infrastructure.Extensions;
+@layout MainLayout
+
+<MudContainer>
+    <MudGrid>
+        <MudItem xs="12" sm="12" md="12">
+            <div class="d-flex justify-center mt-4">
+                <MudIcon Icon="@TeachingBlazorApp.Static.Icons.CustomIcons.TeachingBlazorLogo" Size="Size.Large"
+                    ViewBox="0 0 515 515" Style="@($"color:{@TeachingBlazorApp.Static.Colors.CustomColors.LogoColor};")"
+                    class="cool-blazor-logo" />
+            </div>
+        </MudItem>
+        <MudItem xs="12" sm="12" md="12">
+            <MudText Align="Align.Center" Typo="Typo.h2">@_localizer["CoolBlazor"] v1.0</MudText>
+            <MudText Align="Align.Center" Typo="Typo.h5" Class="smaller">@_localizer["Description"]</MudText>
+        </MudItem>
+
+        <MudItem xs="12" sm="12" md="12">
+            <MudExpansionPanels>
+                <MudExpansionPanel Text="@_localizer["Important Links"]" MaxHeight="500">
+                    <MudList Clickable="true">
+                        <MudListItem Text="@_localizer["Github Repository : Do Not Forget to Leave a Star ;)"]"
+                            Href="https://github.com/UMkashingHui/CoolBlazor" />
+                    </MudList>
+                </MudExpansionPanel>
+            </MudExpansionPanels>
+        </MudItem>
+        <div style="margin:50px"></div>
+    </MudGrid>
+</MudContainer>
+
+<style>
+    .cool-blazor-logo {
+        width: 200px;
+        height: 200px;
+    }
+</style>

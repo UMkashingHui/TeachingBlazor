@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "YgIEcu6X7NEDK8dIOU8RQlnXBBc5d0LeBCVmY0ktWnw=",
+  "Source": "TeachingWebApi",
+  "BasePath": "_content/TeachingWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

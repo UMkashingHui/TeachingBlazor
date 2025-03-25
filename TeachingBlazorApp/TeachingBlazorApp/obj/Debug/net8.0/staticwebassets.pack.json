@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "d:\\projects\\csharp\\TeachingBlazor\\TeachingBlazorApp\\TeachingBlazorApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TeachingBlazorApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TeachingBlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TeachingBlazorApp.props",
+      "PackagePath": "build\\TeachingBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TeachingBlazorApp.props",
+      "PackagePath": "buildMultiTargeting\\TeachingBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TeachingBlazorApp.props",
+      "PackagePath": "buildTransitive\\TeachingBlazorApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
